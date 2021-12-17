@@ -558,9 +558,11 @@ background-position: center;
   outline-color: var(--accent-color);
   border-color: var(--accent-color);
 }
-
-
-
+.clients-item:hover,
+.clients-item:focus {
+  --color4: var(--accent-color);
+  border-color: var(--accent-color);
+}
 
 .clients-icon {
 
