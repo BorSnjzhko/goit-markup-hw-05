@@ -554,7 +554,7 @@ background-position: center;
 /* линия контура для фокуса  */
 *:focus {
   outline-width: 1px;
-  outline-style: solid;
+  outline-style: dotted;
   outline-color: var(--accent-color);
   border-color: var(--accent-color);
 }
