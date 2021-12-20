@@ -362,8 +362,11 @@ background-position: center;
   display: block;
 }
 
-.images-text {
+.images-thumb {
   position: relative;
+}
+.images-text {
+  position: absolute;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0);
